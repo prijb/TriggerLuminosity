@@ -9,38 +9,21 @@ unpackedPatTrigger = cms.EDProducer(
 
 # Order is important !!!
 seeds = [
-    'L1_DoubleEG4_er1p2_dR_Max0p9',
-    'L1_DoubleEG4p5_er1p2_dR_Max0p9',
-    'L1_DoubleEG5_er1p2_dR_Max0p9',
-    'L1_DoubleEG5p5_er1p2_dR_Max0p8',
-    'L1_DoubleEG6_er1p2_dR_Max0p8',
-    'L1_DoubleEG6p5_er1p2_dR_Max0p8',
-    'L1_DoubleEG7_er1p2_dR_Max0p8',
-    'L1_DoubleEG7p5_er1p2_dR_Max0p7',
-    'L1_DoubleEG8_er1p2_dR_Max0p7',
-    'L1_DoubleEG8p5_er1p2_dR_Max0p7',
-    'L1_DoubleEG9_er1p2_dR_Max0p7',
-    'L1_DoubleEG9p5_er1p2_dR_Max0p6',
-    'L1_DoubleEG10_er1p2_dR_Max0p6',
-    'L1_DoubleEG10p5_er1p2_dR_Max0p6',
-    'L1_DoubleEG11_er1p2_dR_Max0p6',
+    'L1_DoubleMu_12_5',
+    'L1_DoubleMu_15_7',
+    'L1_DoubleMu4p5er2p0_SQ_OS_Mass_Min7',
+    'L1_DoubleMu4p5er2p0_SQ_OS_Mass_7to18',
+    'L1_DoubleMu4_SQ_OS_dR_Max1p2',
+    'L1_DoubleMu4p5_SQ_OS_dR_Max1p2',
 ]
 
 # Order is important !!!
 paths=[
-    'HLT_DoubleEle4_eta1p22_mMax6',
-    'HLT_DoubleEle4p5_eta1p22_mMax6',
-    'HLT_DoubleEle5_eta1p22_mMax6',
-    'HLT_DoubleEle5p5_eta1p22_mMax6',
-    'HLT_DoubleEle6_eta1p22_mMax6',
-    'HLT_DoubleEle6p5_eta1p22_mMax6',
-    'HLT_DoubleEle7_eta1p22_mMax6',
-    'HLT_DoubleEle7p5_eta1p22_mMax6',
-    'HLT_DoubleEle8_eta1p22_mMax6',
-    'HLT_DoubleEle8p5_eta1p22_mMax6',
-    'HLT_DoubleEle9_eta1p22_mMax6',
-    'HLT_DoubleEle9p5_eta1p22_mMax6',
-    'HLT_DoubleEle10_eta1p22_mMax6',
+    'DST_HLTMuon_Run3_PFScoutingPixelTracking_v20',
+    'DST_Run3_DoubleMu3_PFScoutingPixelTracking_v20',
+    'DST_Run3_EG16_EG12_PFScoutingPixelTracking_v20',
+    'DST_Run3_EG30_PFScoutingPixelTracking_v20',
+    'DST_Run3_JetHT_PFScoutingPixelTracking_v20',
 ]
 
 miniAODTriggerAnalyzer = cms.EDAnalyzer(
